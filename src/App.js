@@ -1,24 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+// import Header from './components/Header'
+// import NavigationMenu from './components/NavigationMenu'
+// import Content from './components/Content'
+// import MainContent from './components/MainContent'
+// import Footer from './components/Footer'
+// import IfElse from './components/IfElse'
+// import ProductList from './components/ProductList'
+// import Country from './components/Country'
+// import Lamp from './components/Lamp';
+// import Product from './components/Product';
+import Pagination from './components/Pagination';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Header />
+      <NavigationMenu />
+      <div className="main">
+        <Content text={"left"} number={10} active={true} />
+        <MainContent />
+        <Content text={"right"} number={5} active={false} />
+      </div>
+      <Footer />
+      <IfElse />
+      <ProductList />
+      <Country/>
+      <Lamp/>
+      <Product/> */}
+      <Pagination/>
+    </>
   );
 }
 
